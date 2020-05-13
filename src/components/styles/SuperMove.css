@@ -1,0 +1,31 @@
+.supermove {
+  display: inline-block;
+  border: none;
+  border-radius: 100rem;
+  margin: 0.75rem 0.5rem;
+  padding: 1rem;
+  text-decoration: none;
+  background: #ffffff;
+  color: black;
+  font-family: "Product Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  transition: 0.2s ease;
+}
+
+.supermove:hover {
+  transform: scale(1.03);
+}
+
+.supermove.on {
+  background: #47a6ff;
+  color: rgb(255, 255, 255);
+}
+
+
+.supermove:focus {
+  outline: 0;
+}
+

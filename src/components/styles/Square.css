@@ -1,0 +1,36 @@
+.square {
+  display: inline-block;
+  border: none;
+  border-right: 0.3rem solid rgb(255, 233, 192);
+  border-bottom: 0.3rem solid rgb(255, 233, 192);
+  border-radius: 1rem;
+  margin: 0;
+  text-decoration: none;
+  background: #ffffff;
+  color: black;
+  font-family: 'Product Sans', sans-serif;
+  font-size: 1.3rem;
+  font-weight: bold;
+  line-height: 1;
+  cursor: pointer;
+  text-align: center;
+  transition: transform 0.2s ease-in;
+}
+
+.square:focus {
+  outline: 0;
+}
+
+.square:hover {
+  transform: scale(1.05);
+}
+
+.square:active {
+  border-right:none;
+  border-bottom: none;
+  border-top: 0.3rem solid rgb(233, 177, 72);
+  border-left: 0.3rem solid rgb(233, 177, 72);
+}
+
+
+
